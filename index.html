@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Avngers Memory Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <!-- MODAL BOX  -->
+    <div id="myModal" class="modal">
+        <div class="content">
+             <span id="closeModal" class="close">&times;</span>
+             <div id="gameWin">
+                <p>Good Job ! Play Again ?</p>
+             </div>
+             <div id="gameLose">
+                <p>Game Over ! Play Again ?</p>
+             </div>
+             <div class="confirm">
+                 <button id="yesPlay">yes</button>
+                 <button id="noPlay">no</button>
+             </div>
+        </div>
+    </div>
+    <!-- GAME TITLE -->
+    <h1 class="game-title">match the avngers</h1>
+    <!-- GAME TIMER -->
+    <p class="timer">00 : <span id="gameCounter">35</span></p>
+
+        <!-- CARDS -->
+    <div class="cards-container center" id="cards-container">
+    </div>      
+<script src="js/script.js"></script>
+</body>
+</html>
